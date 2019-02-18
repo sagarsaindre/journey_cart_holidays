@@ -1,0 +1,14 @@
+.form-inline {
+  padding: 22px;
+}
+.form-control {
+  margin-left: 10px;
+  background-color: rgba(67,74,84,0.5);
+  color: #fff;
+}
+.btn-default {
+  background-color: #80bb0f;
+  border-radius: none;
+  color: #fff;
+  margin-left: 10px;
+}

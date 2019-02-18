@@ -1,0 +1,70 @@
+.logo-img-adjt {
+  width: 51%;
+  margin-left: 20px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 18px;
+}
+.navbar ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.navbar ul li a {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #6c757d;
+  margin-left: 37px;
+  font-family: 'Quicksand', sans-serif;
+}
+.badge-light {
+  background-color: #80bb0f;
+  color: #fff;
+  font-size: 9px;
+  border-radius:8px;
+}
+.banner-image-section {
+  height: auto;
+  position: relative;
+  margin-bottom: 55px;
+}
+.search-packages-form {
+  margin-top: -150px;
+  position: absolute;
+  margin-left: 80px;
+}
+.search-packages-form-heading {
+  text-transform: uppercase;
+  top: 50%;
+  color: white;
+  font-size: 14px;
+  padding: 7px;
+  font-family: fantasy;
+  background-color: rgba(67,74,84,0.5);
+}
+.search-packages-form-content {
+  background-color: rgba(67,74,84,0.5);
+}
+.header-text {
+  color: #5e6d81;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.sub-header-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+.travel-packages {
+  margin-top: 30px;
+}
+.all-packages-btn {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+}
+.know-more-button {
+  text-transform: uppercase;
+  font-size: 11px;
+}
