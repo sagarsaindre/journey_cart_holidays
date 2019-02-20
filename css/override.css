@@ -1,3 +1,6 @@
+.navbar-toggler {
+  margin-left: 530px;
+}
 .form-inline {
   padding: 22px;
 }
@@ -8,7 +11,22 @@
 }
 .btn-default {
   background-color: #80bb0f;
-  border-radius: none;
+  border-radius: 0px;
   color: #fff;
+  font-size: 13px;
   margin-left: 10px;
+  text-transform: uppercase;
+}
+.card-body {
+  padding: 0px;
+}
+.card-title {
+  font-size: 15px;
+  background-color: #434a54;
+  color: #ffffff;
+  padding: 10px 0px 10px 10px;
+}
+.card-text {
+  font-size: 15px;
+  padding: 10px 23px 5px 10px;
 }
