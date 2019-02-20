@@ -2,58 +2,62 @@
 <html>
 <head>
   <title>Travel Agency in Pune</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/override.css">
 </head>
 <body>
-<div class="container-fluid">
-  <!--  -->
-  <nav class="navbar navbar-light light-blue lighten-4">
-    <div class="navbar navbar-expand-lg">
-      <div class="navbar-brand">
-        <img class="image-responsive logo-img-adjt" src="images/journey-cart-logo.png"></a>
+  <!-- HEADER SECTION -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-light">
+      <div class="col-sm-12 navbar navbar-expand-lg">
+        <div class="navbar-brand">
+          <img class="image-responsive logo-img-adjt" src="images/journey-cart-logo.png"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Tour Packages</a></li>
+            <li><a href="#">Destination <span class="badge badge-success badge-light"> new</span><span class="caret"></span></a></li>
+            <li><a href="#">Cruises</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
-      <button class="navbar-toggler" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse">
-        <ul class="flex-container">
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">Tour Packages</a></li>
-          <li><a href="#">Destination <span class="badge badge-success badge-light"> new</span><span class="caret"></span></a></li>
-          <li><a href="#">Cruises</a></li>
-          <li><a href="#">Hotels</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--  -->
-  <div class=" col-sm-12 banner-image-section">
-    <img class="homepage-banner-image" src="images/journey-cart-banner.jpg" width="100%" height="565px">
-    <div class="col-sm-12 search-packages-form">
-      <div class="col-sm-2 search-packages-form-heading"><span class="glyphicon glyphicon-search"></span> Quick Search
-      </div>
-      <div class="col-sm-10 search-packages-form-content">
-        <form class="form-inline" action="">
-          <div class="col-sm-3 form-group">
-            <input type="country" class="form-control" id="email" placeholder="Select Country">
-          </div>
-          <div class="form-group">
-            <input type="date" class="form-control" id="from_date">
-          </div>
-          <div class="form-group">
-            <input type="date" class="form-control" id="to_date">
-          </div>
-          <button type="submit" class="btn btn-default">Search</button>
-        </form>
+    </nav>
+  </div>
+    <!-- BANNER IMAGE SECTION  -->
+  <div class="container-fluid">
+    <div class="banner-image-section">
+      <img class="homepage-banner-image" src="images/journey-cart-banner.jpg" >
+      <div class="col-sm-12 col-md-12 col-lg-12 search-packages-form">
+        <div class="col-sm-2 col-lg-2 search-packages-form-heading"><span class="glyphicon glyphicon-search"></span> Quick Search
+        </div>
+        <div class="col-sm-9 col-lg-10 search-packages-form-content">
+          <form class="form-inline" action="">
+            <div class="col-sm-12 col-lg-3 form-group">
+              <input type="country" class="form-control" id="email" placeholder="Select Country">
+            </div>
+            <div class="col-sm-12 col-lg-3 form-group">
+              <input type="date" class="form-control" id="from_date">
+            </div>
+            <div class="col-sm-6 col-lg-3 form-group">
+              <input type="date" class="form-control" id="to_date">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
-  <!--  -->
+    <!-- HOLIDAY PACKAGE SECTION -->
   <div class="holiday-packages">
     <div class="container">
       <div class="row">
@@ -131,7 +135,7 @@
       <button type="button" class=" btn btn-style all-packages-btn">All Packages</button>
     </div>
   </div>
-  <!--  -->
+    <!-- COUNTER ON IMAGE SECTION -->
   <div class="dest-banner-image-section">
     <div class="container">
       <div class="row">
@@ -162,7 +166,7 @@
       </div>
     </div>
   </div>
-  <!--  -->
+    <!-- REVIEW CURAOSAL SECTION -->
   <div class="review-section">
     <div class="container">
       <div class="row">
@@ -170,9 +174,14 @@
           <h1 class="header-text-style reviews-head">reviews</h1>
         </div>
       </div>
+      <div class="row">
+        <div  class="col-sm-12">
+
+        </div>
+      </div>
     </div>
   </div>
-
+    <!-- WHY JOURNEY CART SECTION -->
   <div class="why-journey-cart-section">
     <div class="container">
       <div class="row">
@@ -181,72 +190,72 @@
         </div>
       </div>
       <div class="row why-journey-cart-reason">
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-lg">
           <div class="info-box">
             <div class="col-sm-2">
                <i class="sricon best-prices"></i>
             </div>
             <div class="col-sm-10">
-              <h3>best prices</h3>
+              <h3 class="header-text-style info-box-header">best prices</h3>
             </div>
             <p class="reason-content">No Hidden Cost: We work with best hotel names and retailers directly, there is no intermediary involved so you get the best prices possible, which further eliminate domestic travel agent commission structure. We cater to all budgets and segments of the market.</p>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-lg">
           <div class="info-box">
             <div class="col-sm-2">
                <i class="sricon best-prices"></i>
             </div>
             <div class="col-sm-10">
-              <h3>diverse services</h3>
+              <h3 class="header-text-style info-box-header">diverse services</h3>
             </div>
             <p class="reason-content">We provide a diverse array of travel services be it Hotel booking, Eurail passes, Cruise, Packages-Domestic & International and other tour related services. We always have an answer to several queries of the guests.</p>
           </div>
         </div>
       </div>
       <div class="row why-journey-cart-reason">
-        <div class="col-sm-6">
+        <div class="ccol-sm-12 col-lg">
           <div class="info-box">
             <div class="col-sm-2">
               <i class="sricon best-prices"></i>
             </div>
             <div class="col-sm-10">
-              <h3>fast & hassle free</h3>
+              <h3 class="header-text-style info-box-header">fast & hassle free</h3>
             </div>
             <p class="reason-content">Continuing in the travel business for more than 3 years now plus our parent Company for more than 6 years, there has always been a good rapport, relationships amongst our long list of Vendors and hence becomes easy to cater to all the queries of clients with top notch service and efficiency.</p>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-lg">
           <div class="info-box">
             <div class="col-sm-2">
               <i class="sricon best-prices"></i>
             </div>
             <div class="col-sm-10">
-              <h3>ease of access</h3>
+              <h3 class="header-text-style info-box-header">ease of access</h3>
             </div>
             <p class="reason-content">With an objective of providing reliable, quick & competitive quotes with swiftness and perfection, we make it a point that the clients are replied at the earliest to help plan their vacation at ease with us.</p>
           </div>
         </div>
       </div>
       <div class="row why-journey-cart-reason">
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-lg">
           <div class="info-box">
             <div class="col-sm-2">
                <i class="sricon best-prices"></i>
             </div>
             <div class="col-sm-10">
-              <h3>experienced team</h3>
+              <h3 class="header-text-style info-box-header">experienced team</h3>
             </div>
             <p class="reason-content">We have most professional and expert team providing excellent travel planning to all the countries of the world since its inception, it is always easy to explore beyond the usual with Journey Cart Holidays</p>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-lg">
           <div class="info-box">
             <div class="col-sm-2">
                <i class="sricon best-prices"></i>
             </div>
             <div class="col-sm-10">
-              <h3>flexibility</h3>
+              <h3 class="header-text-style info-box-header">flexibility</h3>
             </div>
             <p class="reason-content">We offer everything from group tours to tailor-made (Customised/Individual) holiday packages as per your requirements taking into consideration your requirements to make it a memorable holiday experience.</p>
           </div>
@@ -254,7 +263,54 @@
       </div>
     </div>
   </div>
-
-</div>
+  <div class="recent-travel-blogs">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="header-text-style reviews-head">RECENT TRAVEL BLOGS</h1>
+        </div>
+      </div>
+      <div class="row travel-packages">
+        <div class="col-sm-12 col-lg">
+          <div class="card">
+            <h5 class="blog-card-title">9 things why you should consider next trip to the US</h5>
+            <div class="blog-image-container">
+              <img src="images/tea-set.jpg" class="card-img-top blog-image" alt="...">
+            </div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary read-more-button">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg">
+          <div class="card">
+            <h5 class="blog-card-title">Madagascar travel tips is it safe to travel to Madagascar</h5>
+            <div class="blog-image-container">
+              <img src="images/birds.jpg" class="card-img-top blog-image" alt="...">
+            </div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary read-more-button">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg">
+          <div class="card">
+            <h5 class="blog-card-title">7 Best destination you should explorein Europe</h5>
+            <div class="blog-image-container">
+              <img src="images/poland-city.jpg" class="card-img-top blog-image" alt="...">
+            </div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary read-more-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>

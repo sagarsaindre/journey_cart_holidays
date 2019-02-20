@@ -1,11 +1,10 @@
 .navbar-toggler {
-  margin-left: 530px;
+  /*margin-left: 530px;*/
 }
 .form-inline {
-  padding: 22px;
+  padding: 18px 5px 5px 0px;
 }
 .form-control {
-  margin-left: 10px;
   background-color: rgba(67,74,84,0.5);
   color: #fff;
 }
@@ -21,12 +20,13 @@
   padding: 0px;
 }
 .card-title {
-  font-size: 15px;
   background-color: #434a54;
   color: #ffffff;
+  font-size: 15px;
   padding: 10px 0px 10px 10px;
 }
 .card-text {
   font-size: 15px;
   padding: 10px 23px 5px 10px;
 }
+

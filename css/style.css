@@ -1,47 +1,51 @@
 .logo-img-adjt {
-  width: 51%;
   margin-left: 20px;
+  width: 51%;
 }
-.flex-container {
-  display: flex;
+/*.flex-container {
+  display: inline-block;
   flex-direction: row;
   margin-top: 18px;
-}
+}*/
 .navbar ul li {
-  text-decoration: none;
   list-style: none;
+  text-decoration: none;
 }
 .navbar ul li a {
-  text-transform: uppercase;
-  font-size: 13px;
   color: #6c757d;
-  margin-left: 37px;
   font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  margin-left: 37px;
+  text-transform: uppercase;
 }
 .badge-light {
   background-color: #80bb0f;
+  border-radius:8px;
   color: #fff;
   font-size: 9px;
-  border-radius:8px;
 }
 .banner-image-section {
+  margin-bottom: 55px;
   height: auto;
   position: relative;
-  margin-bottom: 55px;
+}
+.homepage-banner-image {
+  width: 100%;
+  height: 565px;
 }
 .search-packages-form {
+  margin-left: 80px;
   margin-top: -150px;
   position: absolute;
-  margin-left: 80px;
 }
 .search-packages-form-heading {
-  text-transform: uppercase;
-  top: 50%;
+  background-color: rgba(67,74,84,0.5);
   color: white;
+  font-family: fantasy;
   font-size: 14px;
   padding: 7px;
-  font-family: fantasy;
-  background-color: rgba(67,74,84,0.5);
+  text-transform: uppercase;
+  top: 50%;
 }
 .search-packages-form-content {
   background-color: rgba(67,74,84,0.5);
@@ -56,8 +60,8 @@
 }
 .reviews-head, .why-journey-cart-head {
   color: #5e6d81;
-  font-size: 30px;
   font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
   margin: 20px 0px 0px 0px;
 }
 .sub-header-text {
@@ -67,25 +71,25 @@
   margin: 30px 0px 0px 0px;
 }
 .know-more-button {
-  text-transform: uppercase;
-  font-size: 11px;
   background-color: #ffffff;
   border: 1px solid #000;
   color: #000;
+  font-size: 11px;
   margin: 0px 0px 8px 10px;
+  text-transform: uppercase;
 }
 .know-more-button:hover {
   background-color: #ffffff;
-  color: #000;
   border: 1px solid #000;
+  color: #000;
 }
 .btn-style {
   background-color: #808080;
   border-radius: 0px;
   color: #fff;
-  text-transform: uppercase;
   font-size: 14px;
   margin-top: 30px;
+  text-transform: uppercase;
 }
 .dest-labels {
   margin-top: 11px;
@@ -95,10 +99,10 @@
   margin: 20px 0px 20px 538px;
 }
 .dest-banner-image-section {
-  background: url('/home/wgbl/journey_cart/journey_cart_holidays/images/banner-image.jpg') 50%/cover fixed;
-  overflow: hidden;
+  background: url('../images/banner-image.jpg') 50%/cover fixed;
   margin-bottom: 32px;
-  height: 255px;
+  min-height: 255px;
+  overflow: hidden;
 }
 .counter {
   color: #fff;
@@ -108,27 +112,69 @@
   margin-top: 20px
 }
 .dest-detail-count {
+  margin: 20px;
   text-align: center;
-  margin-top: 40px;
 }
 .why-journey-cart-section {
-  height: auto;
   background-color: #fffcf4;
+  height: auto;
+  margin-bottom: 20px;
 }
 .info-box {
   background-color: #ffffff;
-  height: 155px;
   box-shadow: 1px 1px 10px #808080;
+  height: 155px;
+  margin: 33px 14px 0px 0px;
 }
 .info-box:hover {
   box-shadow: 2px 1px 15px #808080;
-}
-.why-journey-cart-reason {
-  margin: 37px 14px 35px 0px;
 }
 .reason-content {
   color: #808080;
   font-family: inherit;
   font-size: 14px;
   padding: 9px 28px 6px 16px;
+}
+.info-box-header {
+  font-size: 22px;
+  margin: 8px 0px 9px 155px;
+}
+.blog-card-title {
+  color: #808080;
+  font-size: 19px;
+  padding: 21px 17px 10px 16px;
+  text-align: center;
+}
+.blog-image-container {
+  border: 1px solid #808080;
+  border-radius: 3px;
+  margin: 9px;
+}
+.blog-image-container:hover {
+  border: 1px solid #ADD8E6;
+}
+.blog-image {
+  height: 200px;
+  padding: 4px;
+}
+.read-more-button {
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 0px;
+  color: #000;
+  float: right;
+  font-size: 11px;
+  margin: 0px 10px 8px 10px;
+}
+.read-more-button:hover {
+  background-color: #80bb0f;
+  border: 1px solid #80bb0f;
+}
+
+@media screen and (max-width: 600px) {
+.homepage-banner-image {
+  width: 100%;
+  height: 565px;
+}
+
 }
